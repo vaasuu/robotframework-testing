@@ -8,7 +8,7 @@
 
 ### Activate python virtual environment
 
-`source .venv/Scripts/activate`
+`source .venv/bin/activate` or `source .venv/Scripts/activate`
 
 ### Install the requirements
 
