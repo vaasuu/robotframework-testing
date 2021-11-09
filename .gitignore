@@ -1,0 +1,7 @@
+# Robot Framework output files
+log.html
+output.xml
+report.html
+
+# Python virtual environment
+.venv
