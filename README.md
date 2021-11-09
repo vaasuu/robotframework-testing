@@ -2,17 +2,19 @@
 
 ## Installing
 
-Create a virtual environment
+### Create a virtual environment
 
 `python3 -m venv .venv`
 
-Activate python virtual environment
+### Activate python virtual environment
 
 `source .venv/Scripts/activate`
 
+### Install the requirements
+
 `pip3 install -r requirements.txt`
 
-Install Chrome WebDriver
+### Install Chrome WebDriver
 
 `webdrivermanager chrome` or `webdrivermanager.exe chrome`
 
