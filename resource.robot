@@ -2,19 +2,18 @@
 Library     SeleniumLibrary    run_on_failure=Nothing
 
 *** Variables ***
-${SERVER}       https://obstaclecourse.tricentis.com/Obstacles/
+${URL}          https://obstaclecourse.tricentis.com/Obstacles/
 ${BROWSER}      Chrome
-${DRIVER}       .venv/Scripts/chromedriver.exe
 ${DELAY}        0
 
 *** Keywords ***
 Prepare Browser
-    Open Browser    ${SERVER}List    ${BROWSER}    executable_path=${DRIVER}
+    Open Browser    ${URL}List    ${BROWSER}
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
 
 Open Obstacle
-    Go To    ${SERVER}${TEST TAGS}[0]
+    Go To    ${URL}${TEST TAGS}[0]
 
 Verify Solved
     Wait Until Page Contains    Good job!
