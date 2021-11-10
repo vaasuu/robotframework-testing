@@ -1,6 +1,25 @@
-# Robot Framework tehtävä
+# Testing Robot Framework
+
+## What Robot Framework?
+
+Robot Framework is a generic open source automation framework. Read more at https://robotframework.org/
+
+# Repo Contents
+
+There are simple automation tests in two subfolders: 
+
+- `/SwagLabs` - Automate ordering stuff from [e-commerce demo site](https://www.saucedemo.com/)
+- `/ObstacleCourse` - [Tricentis Automation Obstacle Course](https://obstaclecourse.tricentis.com/)
 
 ## Installing
+
+### Clone the repo
+
+`git clone git@github.com:vaasuu/robotframework-testing.git`
+
+### cd into repo
+
+`cd robotframework-testing`
 
 ### Create a virtual environment
 
@@ -16,8 +35,8 @@
 
 ### Install Chrome WebDriver
 
-`webdrivermanager chrome` or `webdrivermanager.exe chrome`
+`webdrivermanager chrome`
 
-## Running Robot Framework
+## Running Robot Framework tests
 
-`robot obstacle_tests.robot` or `robot.exe obstacle_tests.robot`
+`robot obstacle_tests.robot`
